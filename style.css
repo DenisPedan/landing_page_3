@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/*container*/
+.container {
+    max-width: 1442px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*intro*/
+.intro_inner {
+    height: 639px;
+    background: url("./img/intro_background.jpg") no-repeat;
+    background-size: cover;
+    padding: 123.07px 0 61.07px;
+    text-align: center;
+}
+
+.intro_title {
+    color: #252525;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+
+    max-width: 549px;
+    margin: 0 auto 49px;
+}
+
+.intro_subtitle {
+    color: #252525;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 47.85px;
+}
+
+.intro_form {
+    display: flex;
+    margin: 0 auto 125.51px;
+    padding: 9.88px 11.5px 10.12px 75.5px;
+    max-width: 779px;
+    height: 75px;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.intro_label {
+    position: relative;
+}
+
+.intro_label_picture {
+    border: 1px #DBDBDB solid;
+    border-radius: 50%;
+    width: 36.922px;
+    height: 36.922px;
+    position: absolute;
+    left: -24.6%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.intro_label_picture img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro_input {
+    width: 210px;
+}
+
+.intro_input::-webkit-input-placeholder{
+    color: #7B7B7B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intro_input::-moz-placeholder {
+    color: #7B7B7B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intro_input:-moz-placeholder {
+    color: #7B7B7B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intro_input:-ms-input-placeholder {
+    color: #7B7B7B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
